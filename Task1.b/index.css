@@ -1,0 +1,16 @@
+header{
+    text-align: center:
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p,h2{
+    color:red;
+    font-size: 16px;
+}
+img{
+    width: device-width;
+}
+ul{
+    color: red
+}
