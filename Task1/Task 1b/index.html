@@ -1,0 +1,56 @@
+<!--Task 1 b:
+Create a simple contact form for a website. The form should contain the following fields:
+
+Name (text input)
+Email (email input)
+Subject (text input)
+Message (textarea input)
+Submit button
+Use appropriate HTML tags to create the form and add labels for each input field. 
+Apply some basic styling using CSS to make the form visually appealing. 
+Additionally, make sure to add validation to the form so that the user is 
+prompted to fill out all required fields and provide a valid email address. 
+Finally, test the form to make sure it works properly and sends the user's input to a 
+specified email address. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Forms demo</title>
+  </head>
+  <body>
+    <h1>Learning how to use forms</h1>
+    <p>
+      Today was our 2nd day of full stack developer bootcamp. We are learning
+      basics of html and css today. We will be learning both front end and back
+      end technologies in this bootcamp. Full stack developers are in high
+      demand, and i hope we will we able to gain enough knowledge to be able to
+      work as a full stack developer after this course.
+    </p>
+
+    <h4>Fill the form below to receive our weekly newsletter.</h4>
+    <form>
+      <label for="fname">Full Name</label>
+      <br />
+      <input type="text" id="fname" name="fname" required /><br />
+
+      <label for="email">Email address</label>
+      <br />
+      <input type="text" id="email" name="email" required /><br />
+
+      <label for="subject">Subject</label>
+      <br />
+      <input type="text" id="subject" name="subject" required /><br />
+
+      <label for="message">Message</label>
+      <br />
+      <input type="text" id="message" name="message" required /><br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
