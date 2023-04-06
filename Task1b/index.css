@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  background-image: url("https://imgv3.fotor.com/images/homepage-feature-card/adjust-image.jpg");
+  height: 300px;
+}
