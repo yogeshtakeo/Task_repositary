@@ -14,20 +14,41 @@
     padding: 32px;
     background-color: #0a0a23;
     color: #fff;
-    border-bottom: 4px solid #fdb347;
+    border-bottom: 4px solid whitesmoke;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: flex;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
   }
   
   .cell {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     text-align: center;
     gap: 16px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 10px 5px;
+    padding: 5px 5px;
   }
   
   .cell img {
