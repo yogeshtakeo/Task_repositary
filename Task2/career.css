@@ -1,10 +1,10 @@
-  header{
+header{
     text-align: center;
 }
 h1 {
     box-sizing: border-box;
-    color: blueviolet;
-    background-color: rgb(red, green, blue);
+    color: white;
+    background-color: red;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     /* margin-top: 50px; */
     margin-bottom: 0;
