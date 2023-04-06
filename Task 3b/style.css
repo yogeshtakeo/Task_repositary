@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: auto;
+  grid-gap: 50px;
+  padding: 10px
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
