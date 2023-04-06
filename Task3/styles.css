@@ -1,0 +1,16 @@
+* {
+  background-color: bisque;
+}
+
+h1 {
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  background-color: lightblue;
+  color: green;
+  padding: 10px;
+}
