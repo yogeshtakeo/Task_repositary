@@ -9,19 +9,19 @@
   }
   
   .header {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 32px;
+    height: 120px;
     background-color: #0a0a23;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
     border-bottom: 4px solid whitesmoke;
   }
-  
   .navigation {
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
-    
     list-style: none;
     margin: 0; 
     background: deepskyblue;
@@ -29,7 +29,6 @@
   
   .navigation a {
     text-decoration: none;
-    display: flex;
     padding: 1em;
     color: white;
   }
@@ -37,25 +36,69 @@
   .navigation a:hover {
     background: #1565C0;
   }
-  
-  .cell {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;
-    text-align: center;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 5px 5px;
+
+  .AI {
+height: 700px;
+padding: 5px;
+background-color: white;
+display: grid;
+grid-template-columns: 640px 640px 640px;
+grid-template-rows: 350px 350px 350px
   }
   
-  .cell img {
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
+  .ML {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.ML img 
+{
+  border-radius: 50%;
+}
+
+.PA {
+display: flex;  
+justify-content: center;
+align-items: center;
+flex-direction: column;
   }
-  
+  .PA img {
+  border-radius: 50%;
+}
+  .NLP {
+display: flex;  
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+  .NLP img {
+  border-radius: 50%;
+}
+  .CV {
+display: flex;  
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+  .CV img {
+  border-radius: 50%;
+}
+  .ES {
+display: flex;  
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+  .ES img {
+  border-radius: 50%;
+}
+  .RB {
+display: flex;  
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+  .RB img {
+  border-radius: 50%;
+}
