@@ -1,0 +1,53 @@
+body {
+  background-color: Olive;
+}
+.newdiv {
+  background-color: Azure;
+  color: red;
+}
+.content-area {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footer {
+  background-color: grey;
+  text-align: center;
+  color: purple;
+}
+#box {
+  background-color: #0a13b4;
+  height: 400px;
+  width: 600px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px red;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+#box:hover {
+  background-color: cyan;
+}
+.one {
+  height: 200px;
+  width: 50px;
+  background-color: black;
+  text-align: center;
+}
+.two {
+  height: 200px;
+  width: 50px;
+  background-color: red;
+  text-align: center;
+}
+.three {
+  height: 200px;
+  width: 50px;
+  background-color: green;
+  text-align: center;
+}
+h1 {
+  color: Purple;
+  text-align: center;
+}

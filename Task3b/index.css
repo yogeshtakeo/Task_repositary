@@ -1,0 +1,27 @@
+body {
+  background-color: lightgrey;
+  color: red;
+}
+.newdiv {
+  background-color: lightcoral;
+  color: black;
+  text-align: center;
+}
+.content-area {
+  background-color: red;
+  color: Black;
+}
+.image {
+  width: 50px;
+  height: 220pxpx;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: Black;
+  color: white;
+}
+.foot {
+  text-align: center;
+  color: red;
+}
