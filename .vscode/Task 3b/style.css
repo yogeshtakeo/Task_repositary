@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+h1 {
+    box-sizing: border-box;
+    color: red;
+    background-color: blue;
+    text-color: red;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* margin-top: 50px; */
+    margin-bottom: 0;
+    padding 0;
+    border: 10px solid black;
+    height: 200px;
+  }
+
+  {
+    box-sizing: border-box;
+  }
+  h2 {
+    background-color: pink;
+    text-color: red;
+  }
+  p {
+    background-color: red;
+  }
+  span {
+    background-color: blue;
+  }
