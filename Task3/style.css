@@ -1,0 +1,29 @@
+header {
+  background-color: #5e2c2c;
+  color: #f7f6f6;
+  padding: 1rem;
+}
+
+main {
+  background-color: #eee;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-right: 1rem;
+}
+
+input[type="color"] {
+  height: 2rem;
+  width: rem;
+  margin-right: 1rem;
+  border: none;
+}
