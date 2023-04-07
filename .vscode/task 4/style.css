@@ -1,0 +1,79 @@
+header{
+    text-align: center;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+h1 {
+    box-sizing: border-box;
+    color: red;
+    background-color: blue;
+    text-color: red;
+    text-align: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* margin-top: 50px; */
+    margin-bottom: 0;
+    padding 0;
+    border: 10px solid black;
+    height: 200px;
+  }
+
+  {
+    box-sizing: border-box;
+  }
+  h2 {
+    background-color: pink;
+    text-color: red;
+    text-align: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* margin-top: 50px; */
+    margin-bottom: 0;
+    padding 0;
+    border: 10px solid black;
+    height: 200px;
+  }
+  h3 {
+    background-color: whitesmoke;
+    text-color: red;
+    text-align: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* margin-top: 50px; */
+    margin-bottom: 0;
+    padding 0;
+    border: 10px solid black;
+    height: 200px;
+    .circle {
+        background-color: #123456;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        margin: 10px;
+        transition: all 200ms;
+      }
+  }
+  h4 {
+    background-color: wheat;
+    text-color: red;
+    text-align: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* margin-top: 50px; */
+    margin-bottom: 0;
+    padding 0;
+    border: 10px solid black;
+    height: 200px;
+  }
+  p {
+    background-color: red;
+  }
+  span {
+    background-color: blue;
+  }
