@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+  }
+  
+  .header {
+    height: 350px;
+    padding: 10px;
+    background-color: #1e1e5f;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 700px;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    background-color: rgb(156, 46, 123);
+    height: 25px;
+    flex-direction: row;
+  }
+  .form {
+    display: grid;
+    background-color: #c07015;
+  }
+  .solar {
+    display: flex;
+    height: 20px;
+    color: #c07015;
+    background-color: rgb(102, 33, 158);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .system {
+        display: flex;
+        border-bottom: 15px;
+        color: #1565C0;
+        background-color: lawngreen;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+  .navigation {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    background: rgb(46, 173, 53);
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+
+  .AI {
+padding-top: 5;
+background-color: rgb(134, 41, 119);
+display: grid;
+grid-template-columns: 600x;
+
+  }
+  
+  .ML {
+display: flex;
+color: #1565C0;
+background-color: lawngreen;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.ML img 
+{
+  border-radius: 50%;
+}
