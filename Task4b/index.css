@@ -1,0 +1,19 @@
+h1 {
+  color: red;
+}
+* {
+  background-color: black;
+  color: white;
+}
+h3 {
+  color: Green;
+  text-align: center;
+}
+
+#countlbl {
+  font-size: 100px;
+  display: block;
+}
+.container {
+  text-align: center;
+}
