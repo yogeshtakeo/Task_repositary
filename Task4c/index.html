@@ -1,0 +1,51 @@
+<!-- 
+Create an HTML file with a header section and a main content area.
+Use CSS to style the header and main content area with appropriate colors and fonts.
+Create a form within the main content area that contains two text inputs for the user to enter numbers and four buttons to perform arithmetic operations.
+Use JavaScript to access the form elements and add event listeners to each button.
+When the user clicks the addition button, use JavaScript to get the values of the two input fields, convert them to numbers, add them together, and display the result to the user.
+When the user clicks the subtraction button, use JavaScript to get the values of the two input fields, convert them to numbers, subtract the second number from the first number, and display the result to the user.
+When the user clicks the multiplication button, use JavaScript to get the values of the two input fields, convert them to numbers, multiply them together, and display the result to the user.
+When the user clicks the division button, use JavaScript to get the values of the two input fields, convert them to numbers, divide the first number by the second number, and display the result to the user.
+Use console.log to log the results of each arithmetic operation to the console.
+Test the program to make sure that each button performs the correct arithmetic operation and that the results are displayed accurately to the user. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Simple Calculator</h1>
+    </header>
+    <main>
+      <div class="upper-container">
+      <input type="number" name="first" id="data" step="any"/>
+      <div>
+        <select id="opt">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/<option>
+        </select>
+      </div>
+      
+      <input type="number" name="second" id="data1" step="any"/>
+    </div>
+    <div class="lower-container">
+      <button onclick="cal()" id="calculate">Calculate</button>
+      
+      <input type="text" name="" id="res" readonly=""/>
+    </div>
+      
+  </main>
+  </div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
