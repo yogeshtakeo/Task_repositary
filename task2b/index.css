@@ -45,6 +45,10 @@ display: grid;
 grid-template-columns: 640px 640px 640px;
 grid-template-rows: 350px 350px 350px
   }
+
+.AI a:hover {
+  background: #1565C0;
+}
   
   .ML {
 display: flex;

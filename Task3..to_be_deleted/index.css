@@ -14,6 +14,7 @@
     background-color: #1e1e5f;
     color: #fff;
     display: grid;
+    grid-template-columns: 450px 40px;
     justify-content: center;
     text-transform: uppercase;
     width: 700px;
@@ -25,6 +26,7 @@
     height: 25px;
     flex-direction: row;
   }
+  
   .form {
     display: grid;
     background-color: #c07015;
@@ -42,7 +44,7 @@
         display: flex;
         border-bottom: 15px;
         color: #1565C0;
-        background-color: lawngreen;
+        background-color: #1e1e5f;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -66,14 +68,14 @@
     background: #1565C0;
   }
 
-  .AI {
-padding-top: 5;
-background-color: rgb(134, 41, 119);
-display: grid;
-grid-template-columns: 600x;
+ .AI {
+    padding-top: 5;
+    background-color: rgb(134, 41, 119);
+    display: grid;
+    grid-template-columns: 600x;
 
   }
-  
+          
   .ML {
 display: flex;
 color: #1565C0;
@@ -86,3 +88,4 @@ flex-direction: column;
 {
   border-radius: 50%;
 }
+        
