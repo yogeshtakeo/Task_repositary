@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.Container {
+    height: 100%;
+    margin: 5px;
+    border-top: 1px black solid;
+    background: url('https://img.freepik.com/premium-photo/soft-with-iridescent-color-contemporary-abstract-background_231311-18.jpg?w=900') center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Box1a {
+    height: 50%;
+    width: 100%;
+    color: white;
+    text-align: start;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-content: center;
+
+}
+
+.Box1a-i {
+    width: 56%;
+    margin: 40px;
+    border-bottom: 5px red solid;
+    background-color: rgb(211, 140, 8);
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
+
+form {
+    margin-left: 20px;
+}
+
+h5 {
+    color: black;
+    text-align: center;
+}
+.navigation {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    border-bottom: 1px rgb(133, 30, 30) solid;
+
+    background: rgb(100, 97, 252);
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    padding: 0.4em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+
+  .navigation2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0; 
+    border-bottom: 1px rgb(133, 30, 30) solid;
+    background: rgb(128, 126, 247);
+  }
+  
+  .navigation2 a {
+    text-decoration: none;
+    padding: 0.4em;
+    color: rgb(14, 13, 12) strong;
+  }
+  
+  .navigation2 a:hover {
+    background: #1565C0;
+  }
+
+.Box1a-i:hover {
+    background-color: #1565C0;
+
+}
+
+.Box1a-ii {
+    height: 25px;
+    width: 500px;
+    color: rgb(133, 30, 30);
+   grid-column: 2 / span 2;
+}
+.Box1a-ii:hover {
+    background-color: #1565C0;
+}
+
+.Box1a-iii {
+    margin: 20px;
+    grid-row: 1; 
+    grid-column: 2;
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.Box1b {
+    height: 40%;
+    width: 100%;
+    margin: 5px;
+}
+
+.Box1b :hover {
+    background: #1565;
+}
+
+.Box1c {
+    height: 10%;
+    width: 100%;
+    margin: 5px;
+    border-bottom: 2px black solid;
+}
