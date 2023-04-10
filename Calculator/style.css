@@ -9,12 +9,20 @@
     height: 100vh;
     place-items: center;
  }
+ h1 {
+    background-color: pink;
+    color: red;
+  }
+  h2 {
+    background-color: red;
+    color: blue;
+  }
  .main{
     width: 400px;
     height: 500px;
     background-color: white;
     position: absolute;
-    border: 5px solid black;
+    border: 5px solid red;
     border-radius: 6px; 
  }
  .main input[type='text'] {
