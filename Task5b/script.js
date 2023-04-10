@@ -20,14 +20,9 @@ function findBestBook() {
     return;
   }
 
-  let bestBook = books[0];
-  for (let i = 1; i < books.length; i++) {
-    if (books[i].rating > bestBook.rating) {
-      bestBook = books[i];
-    }
-  }
+  books.sort((a, b) => b.rating - a.rating);
 
-  const { title, author, rating, genre } = bestBook;
+  const { title, author, rating, genre } = books[0];
   document.getElementById(
     "output"
   ).innerHTML = `<p><b>${title}</b> by ${author} (${genre}) - ${rating}/10</p>`;

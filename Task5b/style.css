@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  padding: 25px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -12,6 +13,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
