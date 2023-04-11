@@ -13,7 +13,7 @@ function addInfo() {
 }
 
 function findHighest() {
-  arr1.push((a, b) => b.rating - a.rating);
+  arr1.sort((a, b) => b.rating - a.rating);
   console.log(arr1);
 
   const highest = arr1[0];
