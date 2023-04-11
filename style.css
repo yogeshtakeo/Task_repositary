@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#people-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#people-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+#people-container li {
+  margin-bottom: 10px;
+}
+
+#average-age {
+  text-align: center;
+  color: #555;
+  font-size: 20px;
+  margin-top: 30px;
+}
