@@ -1,0 +1,19 @@
+#output {
+  width: 3000px;
+}
+* {
+  color: rgb(222, 15, 39);
+
+  font-weight: bolder;
+  background-image: url("https://t3.ftcdn.net/jpg/03/48/73/04/360_F_348730468_C9XWSLSsmdek6gqH56EGIiG89lW3YCeb.jpg");
+}
+.container {
+  display: grid;
+  background-color: lightblue !important;
+  justify-content: center;
+  margin: 30px;
+  padding: px;
+}
+.container:hover {
+  background-image: url("https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg");
+}

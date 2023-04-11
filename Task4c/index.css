@@ -1,0 +1,40 @@
+h1 {
+  color: red;
+}
+* {
+  background-color: lightblue;
+  color: Black;
+}
+h3 {
+  color: Green;
+  text-align: center;
+}
+
+#countlbl {
+  font-size: 100px;
+  display: block;
+}
+#addition {
+  font-size: 30px;
+
+  margin: 2px;
+}
+#subtraction {
+  font-size: 30px;
+
+  margin: 2px;
+}
+#multiplication {
+  font-size: 30px;
+
+  margin: 2px;
+}
+#division {
+  font-size: 30px;
+  margin: 2px;
+}
+.container {
+  justify-content: center;
+  text-align: center;
+  display: grid;
+}
