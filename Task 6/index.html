@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="script.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Most Common Characters</h1>
+      <form id="input-form">
+        <label for="input-string">Input String:</label>
+        <input type="text" id="input-string" name="input-string" /><br /><br />
+        <label for="num-chars">Number of Characters:</label>
+        <input
+          type="number"
+          id="num-chars"
+          name="num-chars"
+          min="1"
+          max="10"
+        /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="output-box"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

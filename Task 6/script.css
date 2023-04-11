@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  background-color: rgb(253, 246, 246);
+  box-shadow: 0px 0px 5px solid rgb(190, 189, 189);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 5px;
+  border: 1px solid rgb(190, 189, 189);
+  border-radius: 5px;
+  width: 200px;
+}
+
+input[type="submit"] {
+  padding: 5px;
+  background-color: rgb(51, 134, 51);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(140, 194, 140);
+}
+
+#output-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  color: black;
+}
+
+#output-box div {
+  padding: 10px;
+  border: 1px solid rgb(190, 189, 189);
+  border-radius: 5px;
+}
