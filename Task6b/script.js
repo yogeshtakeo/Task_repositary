@@ -9,7 +9,7 @@ let id = 1; // id for the first task
 //Add event listener
 form.addEventListener("submit", (event) => {
   event.preventDefault(); //prevent default submission behavior
-  //new task input and get it's value
+  //new task input and get its value
   const newTaskInput = document.getElementById("new-task-input");
   const newTask = newTaskInput.value;
   //check to see if the new task is empty
@@ -23,20 +23,24 @@ form.addEventListener("submit", (event) => {
     newTaskInput.value = ""; //clear the new task input field
   }
 });
+
 // Create a new task item element
 function createTaskItem(task) {
   const taskItem = document.createElement("li");
   taskItem.dataset.taskId = task.id;
-  // Set the innerHTML of the task item to a template literal with the task's text and a delete button
+  // Set the innerHTML of the task item to a template literal with the task's text and edit and delete buttons
   taskItem.innerHTML = `
     <span>${task.text}</span>
+    <button class="edit-button">Edit</button>
     <button class="delete-button">Delete</button>
   `;
   taskItem
     .querySelector(".delete-button")
     .addEventListener("click", deleteTask);
+  taskItem.querySelector(".edit-button").addEventListener("click", editTask);
   return taskItem;
 }
+
 //delete a task
 function deleteTask(event) {
   //Get the task's ID from its parent list item's data-task-id attribute
@@ -45,6 +49,25 @@ function deleteTask(event) {
   // Select the task item element with the corresponding data-task-id attribute
   const taskItem = document.querySelector(`li[data-task-id="${taskId}"]`);
   taskItem.remove();
+}
+
+//edit a task
+function editTask(event) {
+  const taskItem = event.target.parentNode;
+  const taskText = taskItem.querySelector("span");
+  const editButton = taskItem.querySelector(".edit-button");
+  if (editButton.innerText === "Edit") {
+    //If the edit button's text is "Edit", enter edit mode.
+    taskText.contentEditable = true;
+    editButton.innerText = "Save";
+  } else {
+    //If the edit button's text is not "Edit", exit edit mode.
+    const taskId = taskItem.dataset.taskId;
+    const newText = taskText.innerText;
+    tasks[taskId].text = newText;
+    taskText.contentEditable = false;
+    editButton.innerText = "Edit";
+  }
 }
 
 function generateId() {
