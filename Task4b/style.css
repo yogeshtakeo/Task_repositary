@@ -1,0 +1,40 @@
+header {
+  background-color: grey;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+nav {
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+#countlbl {
+  font-size: 100px;
+  display: block;
+}
+.container {
+  text-align: center;
+}
