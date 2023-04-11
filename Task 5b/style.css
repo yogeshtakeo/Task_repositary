@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+ 
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height: 100%;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .top-horizontal-banner img {
+    width: 100%;
+    height: 750px;
+    border-bottom: 4px black solid;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .divider {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 50px black solid;
+  }
+    
+  .bottom-form-page {
+    height: 450px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+ 
