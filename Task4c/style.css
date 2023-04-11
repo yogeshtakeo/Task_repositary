@@ -1,0 +1,38 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+* {
+  background-color: silver;
+  color: purple;
+}
+
+#add {
+  font-size: 30px;
+
+  margin: 2px;
+}
+#sub {
+  font-size: 30px;
+
+  margin: 2px;
+}
+#mul {
+  font-size: 30px;
+
+  margin: 2px;
+}
+#div {
+  font-size: 30px;
+  margin: 2px;
+}
+.container {
+  justify-content: center;
+  text-align: center;
+  display: grid;
+}
+
+label {
+  font-size: 20px;
+}
