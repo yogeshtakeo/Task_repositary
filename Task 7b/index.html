@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Registration Form</h1>
+      <form id="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <label>
+          <input type="checkbox" name="terms" required> Agree to the terms and conditions
+        </label>
+        
+        <label>
+          <input type="checkbox" name="subscribe"> Subscribe to our newsletter
+        </label>
+        
+        <button type="submit">Submit</button>
+      </form>
+      <div id="error-message"></div>
+      <div id="success-message"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
