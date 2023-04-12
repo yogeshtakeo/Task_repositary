@@ -1,0 +1,30 @@
+h2 {
+  color: Red;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  font-weight: bolder;
+  padding: 1%;
+  margin: 2%;
+  color: Blue;
+}
+
+.output {
+  text-align: left;
+  margin: 1px;
+  padding: 10px;
+  color: rgb(14, 12, 12);
+}
+* {
+  background-image: url("https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg");
+}
+#p,
+#task,
+#add,
+.user-input {
+  background-color: lightcoral;
+}
