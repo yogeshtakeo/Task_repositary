@@ -1,0 +1,39 @@
+.input-fields {
+  display: grid;
+  width: 500px;
+  background-color: rgb(230, 217, 70);
+  padding: 15px;
+  font-size: 18px;
+}
+body {
+  margin: 1px;
+
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201101/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_452981.jpg");
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 60%;
+  width: 60%;
+}
+#submit {
+  background-color: Blue;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+}
+.error {
+  color: red;
+}
+#boxes {
+  display: grid;
+  justify-content: space-around;
+}
+
+#display-message {
+  font-weight: bolder;
+  color: rgb(255, 0, 8);
+}

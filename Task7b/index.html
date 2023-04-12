@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+    <h2>New user Registration Form</h2>
+    <div class="container">
+      <form name="inputForm" id="inputForm" action="valid.html">
+        <div class="input-fields">
+          <label for=" fName">Name</label>
+          <input type="text" id="fName" name = "fName" placeholder = "Full Name" />
+          <div class="error"></div>
+        </div>
+        <div class="input-fields">
+            <label for=" Email">Email Address</label>
+            <input type="text" id="email" name = "email" placeholder = "Your Email Address" />
+            <div class="error"></div>
+        </div>
+        <div class = "input-fields">
+            <label for= "Date of Birth">Date of Birth</label>
+            <input type ="date" name ="date">
+        </div>
+        <div class="input-fields">
+            <label for="password">Password</label>
+            <input type="password" name = "password" id="password" placeholder = "Atleast 8 characters" />
+            <div class="error"></div>
+        </div>
+        <div class="input-fields">
+            <label for="vPassword">Verify Password</label>
+            <input type="password" id="vPassword" name="vPassword" placeholder = "Enter same password" />
+            <div class="error"></div>
+        </div>
+        <div class = "input-fields" id = "boxes">
+            <input type ="checkbox" name="terms"><a href ="https://twitter.com/en/tos" target="_blank">Review and Agree to our Terms</a>
+            <br>
+            
+            <input type ="checkbox" name="news">Receive our daily newsletters
+            <div class="error"></div>
+        </div>
+          <input type="submit" id="submit" value="submit">
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
