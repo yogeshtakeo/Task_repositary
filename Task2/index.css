@@ -1,0 +1,43 @@
+h1 {
+  background-color: red;
+
+  animation-name: var();
+  /* display: flex; */
+  text-align: center;
+}
+h1:hover::content blockquote a {
+  background-color: rgb(140, 255, 0);
+  text-align: center;
+  animation-name: calc();
+}
+.content {
+  background-color: brown;
+  border: 100px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 50px 50px 50px 50px;
+  justify-content: space-around;
+  text-align: center;
+}
+.pic1 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+.pic2 {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+
+.pic3 {
+  background-color: goldenrod;
+  height: 100px;
+  width: 100px;
+}
+.pic4 {
+  background-color: silver;
+  height: 100px;
+  width: 100px;
+}
