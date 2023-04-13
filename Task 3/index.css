@@ -1,0 +1,29 @@
+header {
+  background-color: hsl(231, 64%, 47%);
+  color: #f7f6f6;
+  padding: 1px;
+}
+
+main {
+  background-color: hsl(0, 79%, 57%);
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-right: 1rem;
+}
+
+input[type="color"] {
+  height: 5rem;
+  width: 3rem;
+  margin-right: 1rem;
+  border: none;
+}
