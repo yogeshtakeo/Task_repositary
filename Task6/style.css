@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(23, 10, 10);
+  font-family: sans-serif;
+  background-color: #da2828;
 }
 
 #container {
@@ -14,6 +15,13 @@ body {
 
 h1 {
   text-align: center;
+  color: #da2828;
+  background-color: blue;
+  border-radius: 10px;
+}
+h1:hover {
+  background-color: rgb(255, 68, 0);
+  color: rgb(131, 21, 241);
 }
 
 form {
@@ -46,14 +54,14 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: rgb(140, 194, 140);
+  background-color: rgb(68, 31, 113);
 }
 
 #output-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
-  color: black;
+  color: hwb(90 8% 91%);
 }
 
 #output-box div {
